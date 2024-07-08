@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>La Salsa</title>
+    <link rel="stylesheet" href="archivo.css">
+    <link rel="web icon" type="png" href="img/salsa.png">
+</head>
+<body>
+    <header id="main-header">
+        <div id="logo-header">
+            <h1 class="site-name">La Salsa</h1>
+            <p class="site-desc">El género musical de la Salsa</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="solistassalseros.html" class="nav-link" target="_blank">Solistas Salseros</a></li>
+                <li><a href="gruposmusicales.html" class="nav-link" target="_blank">Grupos Musicales</a></li>
+                <li><a href="https://www.instagram.com/andy_webd2703/" class="nav-link" target="_blank">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Definición</h2>
+        <p>
+            La salsa es un género musical y baile que tiene sus raíces en la música afrocaribeña. Se originó en las décadas de 1960 y 1970 en Puerto Rico y Nueva York, pero también tiene influencias de otros estilos musicales como el son cubano, el mambo, el guaguancó, la guaracha y otros ritmos latinoamericanos. La salsa es una fusión de elementos musicales y culturales que reflejan la diversidad y la riqueza de la comunidad latina en esos lugares.
+        </p>
+
+        <p>
+            En términos musicales, la salsa se caracteriza por su ritmo contagioso y su marcada percusión, con instrumentos como el bongó, la conga, las timbales y las maracas. También incluye instrumentos melódicos como la trompeta, el piano, el bajo y la guitarra. La voz del cantante también juega un papel fundamental en la salsa, expresando una amplia gama de emociones y temas que van desde el amor y la pasión hasta la protesta social y la identidad cultural.
+        </p>
+
+        <p>
+            En cuanto al baile, la salsa es conocida por su estilo dinámico y enérgico, con movimientos rápidos y fluidos que se complementan con los ritmos de la música. Se baila en pareja, con un líder y un seguidor, y se destacan figuras y pasos complejos que varían según la región y el estilo específico de salsa que se esté bailando.
+        </p>
+
+        <p>
+            La salsa se ha convertido en un fenómeno global y es apreciada y bailada en muchas partes del mundo. Ha evolucionado con el tiempo, dando lugar a diferentes subgéneros y estilos, pero siempre manteniendo su esencia y conexión con la cultura latina. La salsa es más que solo música y baile; es una expresión cultural que une a personas de diferentes orígenes y edades a través del ritmo y la pasión compartida por este género musical.
+        </p>
+
+        <h2>La Historia de la Salsa</h2>
+        <p>
+            Aunque sus raíces son principalmente de Cuba, la salsa como baile se originó en el barrio español de Nueva York, el “Spanish Harlem”, donde se asentaba la principal colonia de latinoamericanos en la ciudad. Desde ahí comenzó a expandirse y abrirse paso en otras ciudades dentro y fuera de Estados Unidos.
+        </p>
+
+        <p>
+            Corrían los años 70, cuando Johnny Pacheco se juntó con el productor Jerry Masucci y crearon el término de salsa. Gracias a él se popularizó este género y surgieron otros estilos diferentes como la salsa cubana, la salsa de Puerto Rico, la salsa de Cali o la salsa de Nueva York, entre otras muchas más.
+        </p>
+
+        <p>
+            Sin embargo, el baile de salsa en realidad comienza a ver la luz durante los años 50 por parte de los exiliados cubanos y de Puerto Rico que vivían en la ciudad de Nueva York. Las canciones de este género no serían nada sin el acompañamiento de los músicos y la orquesta. Desde instrumentos de percusión hasta cuerda y viento.
+        </p>
+
+        <div class="centered">
+            <img src="img/johnny.jpeg" height="250" alt="Johnny">
+            <figcaption>Johnny Pacheco</figcaption>
+        </div>     
+        
+    <footer>
+        © 2023 La Salsa - Todos los derechos reservados
+    </footer>
+
+    <div class="container">
+	</div>
+	<button class="btn-scrolltop" id="btn_scrolltop">
+		<i class="fa-solid fa-chevron-up"></i>
+	</button>
+	<script>
+		const btn_scrolltop = document.getElementById("btn_scrolltop")
+		btn_scrolltop.addEventListener('click', () => {
+			window.scrollTo(0, 0)
+		})
+
+
+	
+
+	window.onscroll = () =>
+{
+
+	if(window.scrollY < 300){
+	 btn_scrolltop.classList.remove("btn-scrolltop-on")
+	}else{
+		btn_scrolltop.classList.add("btn-scrolltop-on")
+	}
+}
+	</script>
+</body>
+</html>
+    
